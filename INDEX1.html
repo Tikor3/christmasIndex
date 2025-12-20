@@ -207,7 +207,7 @@
     <div id="canvas-wrapper">
         <div id="canvas-container"></div>
 
-        <div id="video-container" style="display: none;">
+        <div id="video-container">
             <video id="input-video" autoplay playsinline muted></video>
             <canvas id="skeleton-canvas"></canvas>
         </div>
@@ -223,7 +223,7 @@
                 • <span class="highlight">向右划动</span> : 惯性拨动 (像拨地球仪)<br />
                 • <span class="highlight">捏合手指</span> : 抓取照片(需上传)
             </div>
-            <button id="upload-btn" onclick="document.getElementById('file-input').click()">上传照片</button>
+            <!-- <button id="upload-btn" onclick="document.getElementById('file-input').click()">上传照片</button> -->
             <input type="file" id="file-input" multiple accept="image/*">
         </div>
         <div id="loading">CRAFTING JEWELS...</div>
